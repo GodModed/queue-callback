@@ -1,5 +1,5 @@
 # queue-callback
-NPM package for queueing values that activate a callback.
+Queue-callback helps with orginizing events that are too fast to handle or will ratelimit an api.
 
 ```js
 // Installation
