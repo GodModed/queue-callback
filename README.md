@@ -30,4 +30,12 @@ queue.stop(); // Stops all currently running tasks in the queue.
 function callback(item) {
   console.log(item); // Item will be recieved for every item in the queue.
 }
+
+// Varibles ---
+
+console.log(queue.items); // Will output every item that is in the queue.
+
+console.log(quuee.iterations); // Will output how many iterations of the queue have gone by.
+
+console.log(quuee.started); // Will output true or false whether the queue is started or not.
 ```
