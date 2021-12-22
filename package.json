@@ -10,9 +10,8 @@
   "author": "godModeD",
   "license": "MIT",
   "dependencies": {
-  }
+  },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/godModeD/queue-callback/"
-},
+    "url": "git@github.com:godModeD/queue-callback"
+  },
 }
