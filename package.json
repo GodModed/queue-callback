@@ -12,6 +12,8 @@
   "dependencies": {
   },
   "repository": {
-    "url": "git@github.com:godModeD/queue-callback"
+    "type": "git",
+    "url": "https://github.com/godModeD/queue-callback.git"
   },
+"homepage": "https://github.com/godModeD/queue-callback.git"
 }
