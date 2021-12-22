@@ -2,12 +2,13 @@
 Queue-callback helps with orginizing events that are too fast to handle or will ratelimit an api.
 
 ```js
-// Installation
-const Queue = require('queue-callback');
-const queue = new Queue();
-// ---
+// Installation ---
 
-//Usage
+const Queue = require('queue-callback');
+
+const queue = new Queue();
+
+//Usage ---
 
 queue.additem("Value"); // Adds "Value" to the queue.
 
