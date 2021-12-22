@@ -1,2 +1,33 @@
 # queue-callback
 NPM package for queueing values that activate a callback.
+
+```js
+// Installation
+const Queue = require('queue-callback');
+const queue = new Queue();
+// ---
+
+//Usage
+
+queue.additem("Value"); // Adds "Value" to the queue.
+
+queue.shift(); // Removes the first item of the queue.
+
+queue.clear(); // Clears the queue.
+
+queue.first(); // Returns the first item of the queue.
+
+queue.start(500, callback); //Starts executing the queue and finishing the tasks in line. 500 is the delay in ms for each item. Callback is the callback function which is called on every item.
+
+var loop = setInterval(queuetick, 500); // 500 is the delay in ms for each item.
+
+function queuetick() {
+  queue.tick(callback); // Callback is the callback function which is called on every item. Queue.tick() is the same thing as start but it is manual.
+}
+
+queue.stop(); // Stops all currently running tasks in the queue.
+
+function callback(item) {
+  console.log(item); // Item will be recieved for every item in the queue.
+}
+```
