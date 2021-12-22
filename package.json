@@ -9,4 +9,6 @@
   "keywords": ["queue", "callback", "async", "queue-callback", "queue callback", "ratelimit", "stack", "wait", "delay"],
   "author": "godModeD",
   "license": "MIT",
+  "dependencies": {
+  }
 }
