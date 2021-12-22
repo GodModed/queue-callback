@@ -1,6 +1,6 @@
 {
   "name": "queue-callback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates a queue that executes callback functions with a delay. This can be used to prevent ratelimit on some appliactions.",
   "main": "queue.js",
   "scripts": {
