@@ -41,7 +41,7 @@ class Queue {
   /**
   * Same thing as start but only goes through the first item in the queue.
   * @constructor
-  * param {requestCallback} callback - calls the callback item for the item in the queue.
+  * @param {requestCallback} callback - calls the callback item for the item in the queue.
   */
   async tick(callback) {
     if (typeof callback !== "function") throw new Error("Callback is not a function.")
