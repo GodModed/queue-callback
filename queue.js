@@ -31,10 +31,8 @@ class Queue {
     this.iterations++
   }
   async clear() {
-    return {
-      this.items = []
-      this.iterations = 0;
-  }
+    this.items = []
+    this.iterations = 0;
   }
   async stop() {
     return this.started = false
