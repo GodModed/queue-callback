@@ -1,8 +1,16 @@
 # queue-callback
 Queue-callback helps with orginizing events that are too fast to handle or will ratelimit an api.
+---
 
+### Installation
+```sh-session
+npm install queue-callback
+yarn add queue-callback
+pnpm add queue-callback
+```
+---
 ```js
-// Installation ---
+// Startup ---
 
 const Queue = require('queue-callback');
 
